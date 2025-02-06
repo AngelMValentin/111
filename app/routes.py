@@ -2,7 +2,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.get('/')
+@app.get('/aboutme')
 def index():
     me = {
         'first_name': 'Angel',
